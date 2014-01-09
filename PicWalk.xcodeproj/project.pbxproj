@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192F011F187EFB57002974E1 /* PicWalkImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 192F011E187EFB57002974E1 /* PicWalkImageCell.m */; };
 		1995FFBC187EE87000EE1AB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1995FFBB187EE87000EE1AB7 /* Foundation.framework */; };
 		1995FFBE187EE87000EE1AB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1995FFBD187EE87000EE1AB7 /* CoreGraphics.framework */; };
 		1995FFC0187EE87000EE1AB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1995FFBF187EE87000EE1AB7 /* UIKit.framework */; };
@@ -22,6 +23,11 @@
 		1995FFDD187EE87000EE1AB7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1995FFC1187EE87000EE1AB7 /* CoreData.framework */; };
 		1995FFE5187EE87000EE1AB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1995FFE3187EE87000EE1AB7 /* InfoPlist.strings */; };
 		1995FFE7187EE87000EE1AB7 /* PicWalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1995FFE6187EE87000EE1AB7 /* PicWalkTests.m */; };
+		1995FFF1187EE87E00EE1AB7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1995FFF0187EE87E00EE1AB7 /* CoreLocation.framework */; };
+		1995FFF4187EE9E500EE1AB7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1995FFF3187EE9E500EE1AB7 /* MainViewController.m */; };
+		1995FFF7187EEB3500EE1AB7 /* PicWalkLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1995FFF6187EEB3500EE1AB7 /* PicWalkLocationManager.m */; };
+		19A86A2E187EEBD200912F0A /* PicWalkImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A86A2D187EEBD200912F0A /* PicWalkImageManager.m */; };
+		A11A24291599421BB19E4BB7 /* libPods-PicWalk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D038CF944A6FAB30AA75 /* libPods-PicWalk.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		192F011D187EFB57002974E1 /* PicWalkImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PicWalkImageCell.h; path = Classes/PicWalkImageCell.h; sourceTree = "<group>"; };
+		192F011E187EFB57002974E1 /* PicWalkImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PicWalkImageCell.m; path = Classes/PicWalkImageCell.m; sourceTree = "<group>"; };
 		1995FFB8187EE87000EE1AB7 /* PicWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1995FFBB187EE87000EE1AB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1995FFBD187EE87000EE1AB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +61,15 @@
 		1995FFE2187EE87000EE1AB7 /* PicWalkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PicWalkTests-Info.plist"; sourceTree = "<group>"; };
 		1995FFE4187EE87000EE1AB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1995FFE6187EE87000EE1AB7 /* PicWalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicWalkTests.m; sourceTree = "<group>"; };
+		1995FFF0187EE87E00EE1AB7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1995FFF2187EE9E500EE1AB7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		1995FFF3187EE9E500EE1AB7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
+		1995FFF5187EEB3500EE1AB7 /* PicWalkLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PicWalkLocationManager.h; path = Classes/PicWalkLocationManager.h; sourceTree = "<group>"; };
+		1995FFF6187EEB3500EE1AB7 /* PicWalkLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PicWalkLocationManager.m; path = Classes/PicWalkLocationManager.m; sourceTree = "<group>"; };
+		19A86A2C187EEBD200912F0A /* PicWalkImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PicWalkImageManager.h; path = Classes/PicWalkImageManager.h; sourceTree = "<group>"; };
+		19A86A2D187EEBD200912F0A /* PicWalkImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PicWalkImageManager.m; path = Classes/PicWalkImageManager.m; sourceTree = "<group>"; };
+		35E6D038CF944A6FAB30AA75 /* libPods-PicWalk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PicWalk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5168A51DBB4933914F0F2F /* Pods-PicWalk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicWalk.xcconfig"; path = "Pods/Pods-PicWalk.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +77,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1995FFF1187EE87E00EE1AB7 /* CoreLocation.framework in Frameworks */,
 				1995FFBE187EE87000EE1AB7 /* CoreGraphics.framework in Frameworks */,
 				1995FFC2187EE87000EE1AB7 /* CoreData.framework in Frameworks */,
 				1995FFC0187EE87000EE1AB7 /* UIKit.framework in Frameworks */,
 				1995FFBC187EE87000EE1AB7 /* Foundation.framework in Frameworks */,
+				A11A24291599421BB19E4BB7 /* libPods-PicWalk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +107,7 @@
 				1995FFE0187EE87000EE1AB7 /* PicWalkTests */,
 				1995FFBA187EE87000EE1AB7 /* Frameworks */,
 				1995FFB9187EE87000EE1AB7 /* Products */,
+				CF5168A51DBB4933914F0F2F /* Pods-PicWalk.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +123,13 @@
 		1995FFBA187EE87000EE1AB7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1995FFF0187EE87E00EE1AB7 /* CoreLocation.framework */,
 				1995FFBB187EE87000EE1AB7 /* Foundation.framework */,
 				1995FFBD187EE87000EE1AB7 /* CoreGraphics.framework */,
 				1995FFBF187EE87000EE1AB7 /* UIKit.framework */,
 				1995FFC1187EE87000EE1AB7 /* CoreData.framework */,
 				1995FFD9187EE87000EE1AB7 /* XCTest.framework */,
+				35E6D038CF944A6FAB30AA75 /* libPods-PicWalk.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +139,14 @@
 			children = (
 				1995FFCC187EE87000EE1AB7 /* AppDelegate.h */,
 				1995FFCD187EE87000EE1AB7 /* AppDelegate.m */,
+				1995FFF2187EE9E500EE1AB7 /* MainViewController.h */,
+				1995FFF3187EE9E500EE1AB7 /* MainViewController.m */,
+				192F011D187EFB57002974E1 /* PicWalkImageCell.h */,
+				192F011E187EFB57002974E1 /* PicWalkImageCell.m */,
+				1995FFF5187EEB3500EE1AB7 /* PicWalkLocationManager.h */,
+				1995FFF6187EEB3500EE1AB7 /* PicWalkLocationManager.m */,
+				19A86A2C187EEBD200912F0A /* PicWalkImageManager.h */,
+				19A86A2D187EEBD200912F0A /* PicWalkImageManager.m */,
 				1995FFD2187EE87000EE1AB7 /* Images.xcassets */,
 				1995FFCF187EE87000EE1AB7 /* PicWalk.xcdatamodeld */,
 				1995FFC4187EE87000EE1AB7 /* Supporting Files */,
@@ -160,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1995FFEA187EE87000EE1AB7 /* Build configuration list for PBXNativeTarget "PicWalk" */;
 			buildPhases = (
+				FB0B0F11758A46B5B046A966 /* Check Pods Manifest.lock */,
 				1995FFB4187EE87000EE1AB7 /* Sources */,
 				1995FFB5187EE87000EE1AB7 /* Frameworks */,
 				1995FFB6187EE87000EE1AB7 /* Resources */,
+				879A66E9DC314325A5431805 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +275,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		879A66E9DC314325A5431805 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-PicWalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0B0F11758A46B5B046A966 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1995FFB4187EE87000EE1AB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -250,7 +315,11 @@
 			files = (
 				1995FFCE187EE87000EE1AB7 /* AppDelegate.m in Sources */,
 				1995FFCA187EE87000EE1AB7 /* main.m in Sources */,
+				1995FFF7187EEB3500EE1AB7 /* PicWalkLocationManager.m in Sources */,
+				19A86A2E187EEBD200912F0A /* PicWalkImageManager.m in Sources */,
 				1995FFD1187EE87000EE1AB7 /* PicWalk.xcdatamodeld in Sources */,
+				192F011F187EFB57002974E1 /* PicWalkImageCell.m in Sources */,
+				1995FFF4187EE9E500EE1AB7 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +437,7 @@
 		};
 		1995FFEB187EE87000EE1AB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5168A51DBB4933914F0F2F /* Pods-PicWalk.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -381,6 +451,7 @@
 		};
 		1995FFEC187EE87000EE1AB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5168A51DBB4933914F0F2F /* Pods-PicWalk.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -453,6 +524,7 @@
 				1995FFEC187EE87000EE1AB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1995FFED187EE87000EE1AB7 /* Build configuration list for PBXNativeTarget "PicWalkTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +533,7 @@
 				1995FFEF187EE87000EE1AB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
