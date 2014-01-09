@@ -11,7 +11,7 @@
     CGFloat minX = region.center.longitude - region.span.longitudeDelta/2;
     CGFloat maxY = region.center.latitude + region.span.latitudeDelta/2;
     CGFloat maxX = region.center.longitude + region.span.longitudeDelta/2;
-    NSString *urlString = [NSString stringWithFormat:@"http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=1&minx=%f&miny=%f&maxx=%f&maxy=%f&size=small&mapfilter=true", MIN(minX, maxX), MIN(minY, maxY), MAX(minX, maxX), MAX(minY, maxY)];
+    NSString *urlString = [NSString stringWithFormat:@"http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=1&minx=%f&miny=%f&maxx=%f&maxy=%f&size=medium&mapfilter=true", MIN(minX, maxX), MIN(minY, maxY), MAX(minX, maxX), MAX(minY, maxY)];
     NSURL *url = [NSURL URLWithString:urlString];
     return url;
 }

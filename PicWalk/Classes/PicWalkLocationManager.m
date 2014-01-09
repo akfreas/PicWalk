@@ -55,7 +55,7 @@
 
 -(void)locationManager:(CLLocationManager *)aManager didUpdateLocations:(NSArray *)locations {
     CLLocation *latestLocation = [locations lastObject];
-    if ([currentlyMonitoredRegion containsCoordinate:latestLocation.coordinate]) {
+    if ([currentlyMonitoredRegion containsCoordinate:latestLocation.coordinate] == NO) {
         [self locationManager:aManager didExitRegion:currentlyMonitoredRegion];
     }
     if (currentlyMonitoredRegion == nil) {
